@@ -70,4 +70,8 @@ public class Branch {
     public String getName() {
         return name;
     }
+
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
 }
