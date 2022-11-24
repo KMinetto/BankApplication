@@ -94,12 +94,12 @@ public class Bank {
             System.out.println("Détails client dans la branche " + branch.getName() + " :");
             ArrayList<Customer> branchCustomers = branch.getCustomers();
             for (Customer customer : branchCustomers) {
-                System.out.println("Client :" + customer.getName());
+                System.out.println("Client : " + customer.getName());
                 if (showTransaction) {
                     System.out.println("Transactions :");
                     ArrayList<Double> transactions = customer.getTransactions();
                     for (double transaction : transactions) {
-                        System.out.println("Montant de la transaction :" + transaction);
+                        System.out.println("Montant de la transaction : " + transaction);
                     }
                 }
             }
